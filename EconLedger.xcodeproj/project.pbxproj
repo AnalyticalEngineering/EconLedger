@@ -16,6 +16,17 @@
 		1298A0F12B1637BA001B0C23 /* EconLedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0F02B1637BA001B0C23 /* EconLedgerTests.swift */; };
 		1298A0FB2B1637BA001B0C23 /* EconLedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0FA2B1637BA001B0C23 /* EconLedgerUITests.swift */; };
 		1298A0FD2B1637BA001B0C23 /* EconLedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0FC2B1637BA001B0C23 /* EconLedgerUITestsLaunchTests.swift */; };
+		1298A10D2B163885001B0C23 /* BudgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A10C2B163885001B0C23 /* BudgetScreen.swift */; };
+		1298A1102B1638BE001B0C23 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A10F2B1638BE001B0C23 /* HapticManager.swift */; };
+		1298A1132B163900001B0C23 /* FloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1122B163900001B0C23 /* FloatingTextfield.swift */; };
+		1298A1152B164C71001B0C23 /* AddBudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1142B164C71001B0C23 /* AddBudgetViewModel.swift */; };
+		1298A1172B164C9B001B0C23 /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1162B164C9B001B0C23 /* AddBudgetView.swift */; };
+		1298A11A2B164CEE001B0C23 /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1192B164CEE001B0C23 /* IconPickerView.swift */; };
+		1298A11C2B1651A8001B0C23 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A11B2B1651A8001B0C23 /* UIColorTransformer.swift */; };
+		1298A1292B165770001B0C23 /* Budget+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1252B165770001B0C23 /* Budget+CoreDataClass.swift */; };
+		1298A12A2B165770001B0C23 /* Budget+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1262B165770001B0C23 /* Budget+CoreDataProperties.swift */; };
+		1298A12B2B165770001B0C23 /* Payment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1272B165770001B0C23 /* Payment+CoreDataClass.swift */; };
+		1298A12C2B165770001B0C23 /* Payment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A1282B165770001B0C23 /* Payment+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		1298A0F62B1637BA001B0C23 /* EconLedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconLedgerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1298A0FA2B1637BA001B0C23 /* EconLedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconLedgerUITests.swift; sourceTree = "<group>"; };
 		1298A0FC2B1637BA001B0C23 /* EconLedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconLedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1298A10C2B163885001B0C23 /* BudgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetScreen.swift; sourceTree = "<group>"; };
+		1298A10F2B1638BE001B0C23 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		1298A1122B163900001B0C23 /* FloatingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextfield.swift; sourceTree = "<group>"; };
+		1298A1142B164C71001B0C23 /* AddBudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetViewModel.swift; sourceTree = "<group>"; };
+		1298A1162B164C9B001B0C23 /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
+		1298A1192B164CEE001B0C23 /* IconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
+		1298A11B2B1651A8001B0C23 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
+		1298A1252B165770001B0C23 /* Budget+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1298A1262B165770001B0C23 /* Budget+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1298A1272B165770001B0C23 /* Payment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1298A1282B165770001B0C23 /* Payment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +121,13 @@
 		1298A0D82B1637B9001B0C23 /* EconLedger */ = {
 			isa = PBXGroup;
 			children = (
-				1298A0D92B1637B9001B0C23 /* EconLedgerApp.swift */,
-				1298A0DB2B1637B9001B0C23 /* Persistence.swift */,
-				1298A0E02B1637B9001B0C23 /* ContentView.swift */,
+				1298A1112B1638D9001B0C23 /* SupportFiles */,
+				1298A10E2B1638A9001B0C23 /* Managers */,
+				1298A1092B1637D5001B0C23 /* Views */,
+				1298A10A2B1637DF001B0C23 /* Models */,
+				1298A10B2B1637EE001B0C23 /* Persistence */,
 				1298A0E22B1637BA001B0C23 /* Assets.xcassets */,
 				1298A0E42B1637BA001B0C23 /* EconLedger.entitlements */,
-				1298A0DD2B1637B9001B0C23 /* EconLedger.xcdatamodeld */,
 				1298A0E52B1637BA001B0C23 /* Preview Content */,
 			);
 			path = EconLedger;
@@ -133,6 +156,64 @@
 				1298A0FC2B1637BA001B0C23 /* EconLedgerUITestsLaunchTests.swift */,
 			);
 			path = EconLedgerUITests;
+			sourceTree = "<group>";
+		};
+		1298A1092B1637D5001B0C23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0E02B1637B9001B0C23 /* ContentView.swift */,
+				1298A10C2B163885001B0C23 /* BudgetScreen.swift */,
+				1298A1162B164C9B001B0C23 /* AddBudgetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1298A10A2B1637DF001B0C23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1298A1252B165770001B0C23 /* Budget+CoreDataClass.swift */,
+				1298A1262B165770001B0C23 /* Budget+CoreDataProperties.swift */,
+				1298A1272B165770001B0C23 /* Payment+CoreDataClass.swift */,
+				1298A1282B165770001B0C23 /* Payment+CoreDataProperties.swift */,
+				1298A0DD2B1637B9001B0C23 /* EconLedger.xcdatamodeld */,
+				1298A0D92B1637B9001B0C23 /* EconLedgerApp.swift */,
+				1298A1142B164C71001B0C23 /* AddBudgetViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1298A10B2B1637EE001B0C23 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0DB2B1637B9001B0C23 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1298A10E2B1638A9001B0C23 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1298A10F2B1638BE001B0C23 /* HapticManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1298A1112B1638D9001B0C23 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1298A1182B164CB9001B0C23 /* SupportingViews */,
+				1298A1122B163900001B0C23 /* FloatingTextfield.swift */,
+				1298A11B2B1651A8001B0C23 /* UIColorTransformer.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		1298A1182B164CB9001B0C23 /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				1298A1192B164CEE001B0C23 /* IconPickerView.swift */,
+			);
+			path = SupportingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +346,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1298A11C2B1651A8001B0C23 /* UIColorTransformer.swift in Sources */,
+				1298A12A2B165770001B0C23 /* Budget+CoreDataProperties.swift in Sources */,
+				1298A1132B163900001B0C23 /* FloatingTextfield.swift in Sources */,
 				1298A0DA2B1637B9001B0C23 /* EconLedgerApp.swift in Sources */,
+				1298A1172B164C9B001B0C23 /* AddBudgetView.swift in Sources */,
+				1298A1292B165770001B0C23 /* Budget+CoreDataClass.swift in Sources */,
 				1298A0DC2B1637B9001B0C23 /* Persistence.swift in Sources */,
+				1298A1152B164C71001B0C23 /* AddBudgetViewModel.swift in Sources */,
+				1298A11A2B164CEE001B0C23 /* IconPickerView.swift in Sources */,
 				1298A0E12B1637B9001B0C23 /* ContentView.swift in Sources */,
+				1298A12C2B165770001B0C23 /* Payment+CoreDataProperties.swift in Sources */,
+				1298A10D2B163885001B0C23 /* BudgetScreen.swift in Sources */,
+				1298A1102B1638BE001B0C23 /* HapticManager.swift in Sources */,
+				1298A12B2B165770001B0C23 /* Payment+CoreDataClass.swift in Sources */,
 				1298A0DF2B1637B9001B0C23 /* EconLedger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
